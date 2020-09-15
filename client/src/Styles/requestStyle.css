@@ -1,0 +1,49 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.request-container {
+
+   background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+	overflow: hidden;
+	width: 1300px;
+	max-width: 100%;
+    min-height: 600px;
+	display: flex;
+	margin-top: 5%;
+	margin-left : auto;
+    margin-right: auto;
+}
+
+.requests{
+    width : 100%;
+    padding: 20px;
+
+}
+
+.single-request {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius : 1%;
+    width : 100%;
+    padding: 10px;
+}
+.single-request span { 
+    color: blue;
+}
+
+.accept-button {
+    background: green;
+    border-color: green;
+}
+
+.reject-button {
+    background: red;
+}

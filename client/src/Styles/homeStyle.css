@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.brand-logo {
+    font-family: 'Alata', sans-serif !important;
+}
+
+.home-container {
+    width : 100%;
+    height : 100vh;
+    display: flex;
+}
+
+.left {
+    width: 20%;
+    border-right : 1px solid rgba(0,0,0,0.2);
+    height : 100vh;
+    padding : 10px;
+}
+
+.right-sub {
+    width: 20%;
+    border-left : 1px solid rgba(0,0,0,0.2);
+    height : 100vh;
+    padding : 10px;
+}
+
+
+
+.left span {
+    color:  rgba(48, 45, 243, 0.7);
+}
+
+.logoutBtn {
+    margin-right: 3vh !important;
+}
+
+.collection p:hover {
+    background: rgb(160, 149, 149) !important;
+    color : white;
+    cursor: pointer;
+}
+
+.right-box {
+    width :60%;
+    height : 100vh;
+    padding: 1%;
+}
+
+.message-box{
+    height : 70vh;
+    width : 100%;
+    border : 1px solid rgba(0,0,0,0.2);
+    padding : 1%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.message {
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 1vh;
+    padding : 1%;
+    width: 50%;
+    background: rgba(243, 240, 240, 0.4);
+}
+
+.message h6{
+    background :  rgba(243, 45, 45, 0.3);
+    border-radius: 10%;
+    display: inline-block;
+    padding : 1vh;
+}
+
+.spacingg {
+    height: 1vh;
+} 
+
+.room-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.room-title i, .chats i{
+    margin-top: 1.5vh;
+    font-size: 5vh;
+    color : blueviolet;
+    cursor: pointer;
+}
+
+.room-title i:hover{
+   font-size : 5.5vh;
+}
+
+.chats i:hover {
+    font-size: 5.5vh;
+}
+
+.public-model , .private-model, .join-model, .peoples-model{
+    visibility: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.p-container {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+    padding : 5vh;
+    background: white;
+    position: relative;
+    width : 500px;
+    height : 350px;
+    border-radius: 1vh;
+}
+
+.p-container input {
+    border : 1px solid black !important;
+    font-size: 4vh;
+}
+
+.p-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-sub i, .t-people i{
+    font-size: 4vh;
+    cursor: pointer;
+}
+
+.enterMessage {
+    padding : 2%;
+    padding-top : 0;
+}
+
+.enterMessage input {
+    border : 1px solid black !important;
+    font-size: 20px !important;
+}
+
+.room-heading {
+    margin-left : 10px;
+}
+
+
+.room-title h6 {
+    margin-top : 2vh;
+    font-size: 2vh;
+    padding : 1vh;
+    border-radius: 5px;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.room-title h6:hover {
+    font-size: 2.5vh;
+}
+
+.public-rooms {
+    height : 35vh;
+    overflow: auto;
+}
+
+.public-rooms::-webkit-scrollbar {
+    display: none;
+}
+
+.private-rooms::-webkit-scrollbar {
+    display: none;
+}
+
+.c-people::-webkit-scrollbar {
+    display: none;
+}
+
+.private-rooms {
+    height : 35vh;
+    overflow: auto;
+}
+
+.chats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.people-container {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+    height : 70vh;
+    padding : 10px;
+    width : 40%;
+    background: white;
+}
+
+.c-people {
+    height: 50vh !important;
+    overflow: auto;
+}
+.t-people {
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestion { 
+    position: absolute;
+    z-index: 1;
+    background: rgba(194, 191, 191, 0.8);
+    width: 80%;
+    font-size: larger;
+}
+
+.suggestion li {
+    padding : 5px;
+}
+
+.privilege {
+    display: flex;
+    justify-content: space-between;
+}
+
+.restrict {
+    pointer-events: none;
+    
+}
+
+

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+
+body { 
+	overflow: hidden;
+	
+}
+
+.green-toast {
+	color : green !important;
+	background: white;
+	font-weight: bolder;
+}
+
+.red-toast {
+	color : red !important;
+	background: white;
+	font-weight: bolder;
+}
